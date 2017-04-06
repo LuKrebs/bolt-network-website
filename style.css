@@ -161,10 +161,19 @@ html, body {
   padding-bottom: 60px;
 }
 
-.footer p {
+.footer a {
+  text-decoration: none;
   color: #0393FF;
   font-size: 14px;
   margin: 1px 0 1px 0;
+}
+
+.footer a:hover {
+  border-bottom: 1px solid #0393FF;
+}
+
+.footer p {
+  margin: 2px 0 2px 0;
 }
 
 .footer h4 {
